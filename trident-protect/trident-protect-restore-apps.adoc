@@ -357,6 +357,9 @@ tridentctl-protect create snapshotrestore <my_restore_name> \
 == Restore from a snapshot to the original namespace
 You can restore a snapshot to the original namespace at any time.
 
+NOTE: ##If your application uses multiple namespaces and these namespaces have PVCs with the same name, snapshot restore operations (both in-place and to a new namespace) will not work correctly. All restored volumes will have the same data instead of the correct data for each namespace. Use backup restore instead of snapshot restore, or upgrade to version 26.02 or later which fixes this issue.##
+
+
 include::../_include/restore-include-sessiontoken-note.adoc[]
 
 // begin tabbed block
