@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: trident-get-started/kubernetes-deploy-operator.html
+permalink: trident-install/kubernetes-deploy-operator.html
 keywords: deploy, Trident, methods, operator, tridentctl, registry, registries
 summary: You can manually deploy the Trident operator to install Trident. This process applies to installations where the container images required by Trident are not stored in a private registry. 
 ---
@@ -33,7 +33,7 @@ Review link:../trident-get-started/kubernetes-deploy.html[the installation overv
 
 .Before you begin 
 
-Before you begin installation, log in to the Linux host and verify it is managing a working, link:requirements.html[supported Kubernetes cluster^] and that you have the necessary privileges.
+Before you begin installation, log in to the Linux host and verify it is managing a working, link:requirements.html[supported Kubernetes cluster] and that you have the necessary privileges.
 
 NOTE: With OpenShift, use `oc` instead of `kubectl` in all of the examples that follow, and log in as *system:admin* first by running `oc login -u system:admin` or `oc login -u kube-admin`.
 
