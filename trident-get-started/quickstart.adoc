@@ -11,7 +11,7 @@ summary: If you are just getting started with Kubernetes, use the instructions t
 :imagesdir: ../media/
 
 [.lead]
-You can install Trident and start managing storage resources in a few steps. Before getting started, review link:requirements.html[Trident requirements].
+You can install Trident and start managing storage resources in a few steps. Before getting started, review link:../trident-get-started/requirements.html[Trident requirements].
 
 NOTE: For Docker, refer to link:../trident-docker/deploy-docker.html[Trident for Docker].
 
