@@ -51,4 +51,4 @@ For help with Trident, create a support bundle using `tridentctl logs -a -n trid
 == For more information
 
 * link:https://github.com/NetApp/trident[Trident resources^]
-* link:https://www.netapp.com/google-cloud/netapp-volumes/[Kubernetes Hub^]
+* link:https://www.netapp.com/console/[Kubernetes Hub^]
