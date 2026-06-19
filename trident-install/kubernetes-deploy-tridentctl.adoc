@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: trident-get-started/kubernetes-deploy-tridentctl.html
+permalink: trident-install/kubernetes-deploy-tridentctl.html
 keywords: deploy, Trident, methods, tridentctl, windows
 summary: You can install Trident using `tridentctl`. This process applies to installations where the container images required by Trident are stored either in a private registry or not.
 ---
@@ -28,11 +28,11 @@ Use of non-multipathing configuration or use of `find_multipaths: yes` or `find_
 // End snippet
 
 == Install Trident using `tridentctl`
-Review link:../trident-get-started/kubernetes-deploy.html[the installation overview] to ensure you've met installation prerequisites and selected the correct installation option for your environment.
+Review link:../trident-install/kubernetes-deploy.html[the installation overview] to ensure you've met installation prerequisites and selected the correct installation option for your environment.
 
 .Before you begin 
 
-Before you begin installation, log in to the Linux host and verify it is managing a working, link:requirements.html[supported Kubernetes cluster^] and that you have the necessary privileges.
+Before you begin installation, log in to the Linux host and verify it is managing a working, link:../trident-get-started/requirements.html[supported Kubernetes cluster] and that you have the necessary privileges.
 
 NOTE: With OpenShift, use `oc` instead of `kubectl` in all of the examples that follow, and log in as *system:admin* first by running `oc login -u system:admin` or `oc login -u kube-admin`.
 
@@ -134,7 +134,7 @@ trident-controller-679648bd45-cv2mx   6/6     Running   0          5m29s
 trident-node-linux-vgc8n              2/2     Running   0          5m29s
 ----
 
-NOTE: If the installer does not complete successfully or `trident-controller-<generated id>` (`trident-csi-<generated id>` in versions prior to 23.01) does not have a *Running* status, the platform was not installed. Use `-d` to  link:../troubleshooting.html#troubleshooting-an-unsuccessful-trident-deployment-using-tridentctl[turn on debug mode] and troubleshoot the issue. 
+NOTE: If the installer does not complete successfully or `trident-controller-<generated id>` (`trident-csi-<generated id>` in versions prior to 23.01) does not have a *Running* status, the platform was not installed. Use `-d` to  link:../troubleshooting.html#unsuccessful-trident-deployment-using-tridentctl[turn on debug mode] and troubleshoot the issue. 
 
 === Using `tridentctl`
 
