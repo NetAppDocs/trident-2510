@@ -116,7 +116,7 @@ TNRs can be in one of the following states:
 ** Install Operator Lifecycle Manager (OLM) in the cluster if not already installed: `operator-sdk olm install`.
 ** Install Node Health check Operator: `kubectl create -f https://operatorhub.io/install/node-healthcheck-operator.yaml`.
 
-NOTE: You can also use alternative ways to detect node failure as specified in the link:..trident-reco/force-detach.html#integrating-custom-node-health-check-solutions[Integrating Custom Node Health Check Solutions] section below.
+NOTE: You can also use alternative ways to detect node failure as specified in the link:force-detach.html#integrating-custom-node-health-check-solutions[Integrating Custom Node Health Check Solutions] section below.
 
 See link:https://www.redhat.com/en/blog/node-health-check-operator[Node Health Check Operator^] for more information.
 
